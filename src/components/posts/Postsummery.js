@@ -1,15 +1,18 @@
 import React from 'react';
-import {Typography} from '@material-ui/core';
+import {Typography, Button} from '@material-ui/core';
+import { Link } from 'react-router-dom';
 
-const Postsummery = ( { posts }) => {
+const Postsummery = ({ post }) => {
+    console.log(post);
     return  (
         <>
         <Typography variant='h5' component='h3'>
-            {posts.title}
+            {post.title}
         </Typography>
         <Typography variant="body2">
-            {posts.body}
+            {post.body}
         </Typography>
+        <Button component={Link} to={`/post/${post.id}`} variant= 'contained' color = 'primary'>Read More..</Button>
         </>
         );
 };

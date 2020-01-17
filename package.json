@@ -13,7 +13,7 @@
     "react-scripts": "3.2.0",
     "yup": "^0.28.0"
   },
-  "homepage": "https://SayedEnam.github.io/blog",
+  "homepage": "https://SayedEnam.github.io/blogsite",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",

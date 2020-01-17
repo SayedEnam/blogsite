@@ -3,7 +3,7 @@ import { Grid } from '@material-ui/core';
 import Dashboard from './Dashboard';
 import Sidebar from './Sidebar';
 
-const DashboardIndex = (posts) => {
+const DashboardIndex = ({posts}) => {
     return ( 
         <Grid container spacing={2}>
             <Grid item xs={8}>

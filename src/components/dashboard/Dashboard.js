@@ -4,6 +4,7 @@ import { Posts } from '../posts';
 
 
 const Dashboard = ({posts}) => {
+
     return ( 
         <>
             <Typography variant='h5' component='h3'>Dashboard</Typography>
